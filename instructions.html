@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Instructions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lap App Instructions</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -9,114 +14,328 @@
             margin: 40px auto;
             padding: 20px;
             line-height: 1.6;
+            color: #222;
         }
-        h1 {border-bottom: 2px solid #ccc; padding-bottom: 10px;}
-        h2 {margin-bottom: 4px;}
-        h3 {margin-bottom: 0px;}
-        p {margin-top: 0px; margin-bottom: 4px;}
-        ol { margin-top: 2px; }
+
+        h1 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 32px;
+            margin-bottom: 14px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-top: 22px;
+            margin-bottom: 4px;
+        }
+
+        h4 {
+            font-size: 17px;
+            margin-top: 18px;
+            margin-bottom: 4px;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+
+        ol {
+            margin-top: 4px;
+        }
+
+        .back-link {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 
 <body>
-<div style="margin-bottom: 20px;">
+
+<div class="back-link">
     <a href="index.html">← Back to Home</a>
-    
 </div>
-<h1>Instructions - Set Up</h1>
 
-<h2>Laps</h2>
-<p>Enter the number of laps to be run. Example: 3200m outdoor = 8 laps.</p>
+<h1>Instructions</h1>
 
-<h2>Hips</h2>
-<p>Enter the number of runners in the race.
-Actually, enter the highest 'hip number' in the race. Ignore any missing runners ('scratches'). They just never finish.
-The app builds a 'lap table' as you enter laps and hips. The lap table tells you which runner has how many laps to go. After you enter both laps and hips the app jumps to the run screen.</p>
 
-<h1>Instructions - Run Screen</h1>
-<p>There are two jobs once you get to the run screen.</p>
-    <ol>
-<li>Start the clock</li>
-<li>Enter hip numbers as the runners go by.</li>
-    </ol>
-<h2>Starting the clock</h2>
-<p>You can either hit 'START' or enter '0'.</br>
-When all runners have finished the clock stops and you will have a completed finishing order list with times.
-It is important to hit 'enter' at the moment the runner crosses the finish line if you want accurate times.</p>
+<h2>Setup</h2>
 
-<h2>Entering Data</h2>
-<p>There are three ways to enter data.</p>
+<h3>Number of Laps</h3>
+
+<p>
+Enter the number of laps to be run.
+</p>
+
+<p>
+Example: 3200 m outdoors = 8 laps.
+</p>
+
+
+<h3>Highest Hip Number</h3>
+
+<p>
+Enter the highest competitor hip number in the race. Runners are numbered from 1 through this number.
+</p>
+
+<p>
+Missing hip numbers or scratches do not need to be removed. Simply never enter those runners.
+They will remain unfinished and can be ignored when the race is complete.
+</p>
+
+
+<h2>Race Screen</h2>
+
+<p>
+During the race there are two main jobs:
+</p>
+
 <ol>
-    <li>Screen keypad</li>
-    <li>External keypad</li>
-    <li>Voice recognition</li>
-</ol>
-  
-<h3>Screen keypad</h3>
-<p>If no external keypad is connected, a screen keypad pops up automatically. This can be used, but consider having two people for most races.
-Have one person call out numbers, second person punch them in. If race traffic is hot and heavy, have the first person scribble them down on paper while calling them out. That way the keyboard person can catch up when needed.
-The keyboard works, but realize that your eyes can end up moving rapidly between the race and the keypad.</p>
-    
-<h3>External keypad</h3>
-<p>External numerical keypads available at very low cost. This can be a great option if you spend a little time training your fingers for typing on one.
-The advantage is that you can keep your eyes on the race and your fingers on the keys. It can be extremely fast and reliable. Keypads can connect either by bluetooth or cable.
-Connecting an external keypad will automatically supress the screen keypad.</p>
-
-<h3>Voice recognition</h3>
-<p>Voice recognition is a very good option, but realize that it is subject to the reliability of voice recognition. The word 'comma' is your 'enter key'. Comma is a sound not mistaken for other words in the English language. If you speak a digit immediately followed by the word comma, it should recognize the digit. It will ignore you if you do not say 'comma!. There are feedback options to help ensure reliability.</p>
-    
-<h2>Special Entries</h2>
-
-<h3>Oops</h3>
-<p>If you make an oops, you can enter a negative number to 'erase' an entry. This is only available via keypad.</p>
-
-<h3>Enter Zero for the pack</h3>
-<p>Early in the race you can enter zero to indicate the whole pack went through. Once the race thins out you will want to enter individual hip numbers.</p>
-
-<h2>Feedback Options</h2>
-<p>There are three feedback options</p>
-<ol>
-    <li>Beep</li>
-    <li>Voice</li>
-    <li>Both</li>
+    <li>Start the clock.</li>
+    <li>Enter runners' hip numbers as they pass.</li>
 </ol>
 
-<h3>Beep</h3>
-<p>Your device beeps as soon as it recognizes a valid number. (valid means from zero up to the highest hip number) You may speak numbers as fast as you want while using beep feedback.</p>
 
-<h3>Voice</h3>
-<p>The device speaks 'Number xx has xx to go.'</p>
-<p>NOTE: The device ignores anything you say while it is speaking. You MUST wait for it to finish before you speak more information.</p>
+<h3>Starting the Clock</h3>
 
-<h3>Both</h3>
-<p>You may use both voice and beep. It beeps at the end of the voice. This gives you a clear indication when it it done speaking.</p>
+<p>
+Press <strong>START CLOCK</strong> to begin the race.
+</p>
 
-<p style="margin-top: 20px;">Any feedback method can be used with any input method - either keyboard style, or voice.<br>
-Feedback options maintain their state between races.</p>
+<p>
+Entering a hip number before the clock is started does not start the race.
+</p>
 
-<h2>Laps to Go</h2>
-<p>The number of laps to go is the number you want to call out to the runner BEFORE you enter their hip number.</p>
-
-<p>If you are using Voice Feedback and you connect your phone to a bluetooth speaker you can have your speaker announce to the runners how many laps they have to go. That can be really fun.</p>
-
-<h2>Export Results</h2>
-<p>The race data can be exported to a csv file.</p>
-
-<h2>Lap Table</h2>
-<p>The Lap Table records every lap for every unner. This can be useful to check for errors.</p>
-<p>The lap table is part of the exported data.</p>
-
-<h2>Reset</h2>
-<p>The RESET button erases everything. Press reset to begin a new race.</p>
+<p>
+Times are recorded when entries are made. When all runners have finished, the clock stops and
+the finishing order and times are available.
+</p>
 
 
+<h3>Entering Hip Numbers</h3>
+
+<p>
+Hip numbers can be entered three ways:
+</p>
+
+<ol>
+    <li>Voice Recognition</li>
+    <li>External Keypad</li>
+    <li>On-Screen Keypad</li>
+</ol>
+
+<p>
+All three methods record the same race information and can be used interchangeably.
+</p>
 
 
+<h4>1. Voice Recognition</h4>
+
+<p>
+Voice Recognition is usually the fastest way to enter runners during a busy race.
+</p>
+
+<p>
+Say the runner's hip number followed immediately by the word <strong>“comma.”</strong>
+</p>
+
+<p>
+Example: <strong>“12 comma”</strong>
+</p>
+
+<p>
+“Comma” acts as the Enter key. Lap App waits for that word before accepting the number.
+</p>
+
+<p>
+In noisy environments, a close-talking wired microphone can greatly reduce unwanted background
+sound. It is especially useful when Voice Feedback is being played through an external Bluetooth
+speaker.
+</p>
 
 
-    
+<h4>2. External Keypad</h4>
 
-    
+<p>
+A Bluetooth or wired numerical keypad can provide very fast and reliable entry after a little
+practice.
+</p>
+
+<p>
+It lets the operator keep their eyes on the race while keeping their fingers on the keys.
+</p>
+
+<p>
+When an external keypad is detected, the on-screen keypad is automatically hidden.
+</p>
+
+
+<h4>3. On-Screen Keypad</h4>
+
+<p>
+If no external keypad is connected, the on-screen keypad is available.
+</p>
+
+<p>
+For busy races, it can be helpful to have one person call out hip numbers while another enters them.
+</p>
+
+
+<h3>Special Entries</h3>
+
+
+<h4>Correcting an Accidental Entry</h4>
+
+<p>
+If a runner is accidentally entered an extra time, enter that runner's hip number as a negative
+number to add the lap back.
+</p>
+
+<p>
+Example: <strong>-12</strong>
+</p>
+
+<p>
+Negative-number corrections are available from the keypad.
+</p>
+
+
+<h4>Entering Zero for the Pack</h4>
+
+<p>
+Enter <strong>0</strong> when the runners are together in one pack.
+</p>
+
+<p>
+A zero records one crossing for the pack and is especially useful early in a race before the field
+spreads out.
+</p>
+
+<p>
+As the race separates, enter individual hip numbers.
+</p>
+
+
+<h3>Feedback</h3>
+
+<p>
+Feedback confirms that a valid entry was recorded.
+</p>
+
+<p>
+<strong>Beep Feedback</strong> gives a short audible confirmation.
+</p>
+
+<p>
+<strong>Voice Feedback</strong> announces the runner's hip number and laps to go.
+</p>
+
+<p>
+Beep Feedback and Voice Feedback can be used separately or together.
+</p>
+
+
+<h4>Voice Feedback</h4>
+
+<p>
+Voice Feedback announces messages such as:
+</p>
+
+<p>
+<strong>“Number 12 has 3 to go.”</strong>
+</p>
+
+<p>
+When the first runner reaches one lap to go, Lap App sounds the bell before announcing the runner's
+final lap.
+</p>
+
+<p>
+If Voice Feedback and Beep Feedback are both enabled, the confirmation beep sounds after the spoken
+feedback.
+</p>
+
+
+<h4>Listen During Voice Feedback</h4>
+
+<p>
+Normally, Voice Recognition ignores speech while Lap App is speaking. This helps prevent the app
+from recognizing its own feedback.
+</p>
+
+<p>
+<strong>Listen During Voice Feedback</strong> keeps recognition active while feedback is playing.
+</p>
+
+<p>
+This works best when feedback is sent to a remote Bluetooth speaker and a close-talking microphone
+is used. The operator can continue calling hip numbers while earlier feedback catches up.
+</p>
+
+
+<h4>Audio Output</h4>
+
+<p>
+When Voice Feedback is enabled, <strong>Audio Output</strong> lets you select the speaker used for
+spoken feedback and the bell.
+</p>
+
+<p>
+This is useful when using an external Bluetooth speaker.
+</p>
+
+
+<h3>Laps to Go</h3>
+
+<p>
+The race table shows each runner's current laps to go.
+</p>
+
+<p>
+The displayed number is the lap count you would tell the runner before entering that runner's hip
+number.
+</p>
+
+<p>
+Voice Feedback can announce this information through an external speaker so runners can hear their
+laps remaining.
+</p>
+
+
+<h3>Lap Times</h3>
+
+<p>
+Lap Times records the lap time history for every runner.
+</p>
+
+<p>
+This provides an audit trail that can help identify a missed entry or an accidental extra entry.
+</p>
+
+<p>
+Lap times are also included in exported race data.
+</p>
+
+
+<h3>Export Results</h3>
+
+<p>
+Race results can be exported as a CSV file for saving or further processing.
+</p>
+
+
+<h3>Reset</h3>
+
+<p>
+RESET clears the current race so a new race can be started.
+</p>
+
 </body>
-
 </html>
