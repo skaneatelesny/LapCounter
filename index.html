@@ -1,23 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Lap Counter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Lap App</title>
 
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 700px;
+            max-width: 760px;
             margin: 60px auto;
+            padding: 0 20px;
             text-align: center;
             line-height: 1.6;
+            color: #222;
         }
 
-        a {
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 22px;
+            margin-bottom: 28px;
+        }
+
+        .description {
+            text-align: left;
+            margin: 0 auto 30px auto;
+            max-width: 680px;
+            font-size: 17px;
+        }
+
+        .feature-list {
+            text-align: left;
+            max-width: 620px;
+            margin: 0 auto 35px auto;
+        }
+
+        .feature-list li {
+            margin-bottom: 8px;
+        }
+
+        .links {
+            margin-top: 30px;
+        }
+
+        .links a {
             display: block;
-            margin: 20px;
+            margin: 18px;
             font-size: 20px;
             text-decoration: none;
+        }
+
+        .footer-note {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
         }
     </style>
 </head>
@@ -26,13 +67,41 @@
 
 <h1>The Lap App</h1>
 
-<p> </p>
+<div class="subtitle">
+    Lap counting and race tracking for multi-lap running events
+</div>
 
-<a href="instructions.html">Instructions</a>
+<div class="description">
+    <p>
+        The Lap App helps officials track runners through multi-lap races while keeping attention on the race itself.
+    </p>
 
-<a href="support.html">Support</a>
+    <p>
+        Enter runner hip numbers by voice, external keypad, or the on-screen keypad. The app keeps track of laps remaining, records lap times, builds the finishing order, and can provide audible feedback during the race.
+    </p>
+</div>
 
-<a href="privacy.html">Privacy Policy</a>
+<ul class="feature-list">
+    <li>Voice Recognition for rapid hands-free hip-number entry</li>
+    <li>External keypad and on-screen keypad support</li>
+    <li>Automatic laps-to-go tracking for every runner</li>
+    <li>Pack entry using zero when runners are still together</li>
+    <li>Voice and beep feedback</li>
+    <li>Bell-lap announcement</li>
+    <li>Lap Times history for checking missed or extra entries</li>
+    <li>Finishing order and race times</li>
+    <li>CSV export of race results</li>
+</ul>
+
+<div class="links">
+    <a href="instructions.html">Instructions</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy Policy</a>
+</div>
+
+<div class="footer-note">
+    Designed for track officials, coaches, and anyone managing multi-lap races.
+</div>
 
 </body>
 
